@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Css/all.min.css" />
+    <link rel="stylesheet" href="Css/main.css" />
+    <link rel="icon" href="Images/js.jpg" />
+    <title>BookMark</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <p class="heading my-5 ps-5">Bookmarker</p>
+        <hr />
+      </div>
+    </header>
+    <section id="info" class="parent">
+      <div class="container">
+        <div class="details text-center bg-light py-5 mx-5 m-auto">
+          <h5 class="mb-4">Bookmark your favorite sites</h5>
+          <label>Site Name</label>
+          <input
+            type="text"
+            id="Sitename"
+            class="form-control w-75 m-auto my-3"
+            placeholder="Bookmark Name"
+          />
+          <div
+            id="nameAlert"
+            class="alert alert-danger w-75 m-auto my-2 text-start p-2 d-none"
+          >
+            ** Site Name should be a valid name
+          </div>
+          <label>Site URL</label>
+          <input
+            type="text"
+            id="SiteUrl"
+            class="form-control w-75 m-auto my-3"
+            placeholder="Website URL"
+          />
+          <div
+            id="urlAlert"
+            class="alert alert-danger w-75 m-auto my-2 text-start p-2 d-none"
+          >
+            ** Site Url should be a valid Url
+          </div>
+          <button id="submit" class="btn btn-primary my-2">Submit</button>
+          <div
+            class="mid-div d-flex justify-content-between align-items-center"
+          >
+            <span>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </span>
+            <input
+              id="search"
+              type="text"
+              placeholder="Search Bookmark"
+              class="form-control my-3 w-75 m-auto px-5 rounded-5 border-dark"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container m-auto px-5">
+        <div id="bookmarkList" class="d-flex flex-column bg-white"></div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <hr />
+        <p class="footer-detail my-5 ps-5">© 2022 Bookmarker Inc.</p>
+      </div>
+    </footer>
+
+    <script src="JavaScript/bootstrap.bundle.min.js"></script>
+    <script src="JavaScript/all.min.js"></script>
+    <script src="JavaScript/main.js"></script>
+  </body>
+</html>

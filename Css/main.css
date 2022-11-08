@@ -1,0 +1,58 @@
+* {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 29px;
+    color: #aaa;
+}
+.footer-detail {
+    font-size: 14px;
+}
+h5 {
+    font-size: 24px;
+    color: #000;
+    font-weight: 700;
+}
+label {
+    color: #000;
+}
+#info .details {
+    background-color: #eeeeee !important;
+}
+.webwell{
+    background-image: linear-gradient(#EEE,#FFF);
+    padding: 10px;
+    margin: 15px 0;
+}
+.webwell h2 {
+    width: 25%;
+    font-size: 24px;
+    font-weight: 700;
+}
+.webwell a {
+    margin-right: 20px;
+}
+.webwell a:hover {
+    box-shadow: 5px 5px 5px black;
+}
+.webwell button {
+    margin-right: 15px;
+}
+.webwell button:hover {
+    box-shadow: 5px 5px 5px black;
+}
+#submit:hover{
+    box-shadow: 5px 5px 5px black;
+}
+.mid-div {
+    position: relative;
+}
+.mid-div span {
+    position: absolute;
+    left: 14%;
+    color: black
+}
+
+
